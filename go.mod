@@ -1,8 +1,6 @@
 module github.com/nccgroup/singularity
 
-go 1.23.0
-
-toolchain go1.24.1
+go 1.25.0
 
 require (
 	github.com/gorilla/mux v1.8.1
@@ -13,8 +11,8 @@ require (
 
 require (
 	golang.org/x/mod v0.22.0 // indirect
-	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
-	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
 	golang.org/x/tools v0.28.0 // indirect
 )
